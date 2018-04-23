@@ -13,7 +13,7 @@ function exactMatch(drivers, obj) {
     let matches = false;
   
     for (const key in obj) {
-      matches = drivers[key] === obj[key];
+      matches = driver[key] === obj[key];
     }
   }
 )}
