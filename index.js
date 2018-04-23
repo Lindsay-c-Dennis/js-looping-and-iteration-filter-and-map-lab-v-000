@@ -9,7 +9,7 @@ function driverNamesWithRevenueOver(drivers, revenue) {
 }
 
 function exactMatch(drivers, obj) {
-  driverMatch = drivers.filter(driver => driver.include(obj);
+  driverMatch = drivers.filter(driver => driver.include(obj));
   return driverMatch.name;
 }
 
