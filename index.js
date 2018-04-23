@@ -7,3 +7,7 @@ function driverNamesWithRevenueOver(drivers, revenue) {
   bigMoneyDrivers = driversWithRevenueOver(drivers, revenue);
   return bigMoneyDrivers.map(function(driver) {return driver.name});
 }
+
+function exactMatch(drivers, obj) {
+  return drivers.map(driver)
+}
