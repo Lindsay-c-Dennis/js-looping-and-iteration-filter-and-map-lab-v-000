@@ -18,6 +18,10 @@ function exactMatch(drivers, obj) {
     return matches;
   });
 }
-function exactMatchToList() {
+function exactMatchToList(drivers, obj) {
+  array = exactMatch(drivers, obj);
   
+  return array.map(function(driver) {
+    return driver.name;
+  })
 }
